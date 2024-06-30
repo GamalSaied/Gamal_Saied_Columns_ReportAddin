@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<RevitAddIns>
+	<AddIn Type="Command">
+		<Name>Columns_ReportAddin.Revit</Name>
+		<Assembly>KT_59080337__Gamal_Saied_Columns_ReportAddin.Revit.Entry.dll</Assembly>
+		<AddInId>
+		"E309488B-8713-4243-8507-5059194C6752"
+		</AddInId>
+		<FullClassName>KT_59080337__Gamal_Saied_Columns_ReportAddin.Revit.Entry.ExtCommand</FullClassName>
+		<Text>ITI</Text>
+		<Description>ITI</Description>
+		<VendorId>ITI</VendorId>
+		<VendorDescription>@ITI</VendorDescription>
+		<VisibilityMode>NotVisibleWhenNoActiveDocument</VisibilityMode>
+	</AddIn>
+
+
+	
+		<AddIn Type="Application">
+			<Name>Columns_ReportAddin</Name>
+			<Assembly>KT_59080337__Gamal_Saied_Columns_ReportAddin.Revit.Entry.dll</Assembly>
+			<AddInId>
+
+				"F9C2BCB1-2B72-4078-9E22-660EBA159297"
+
+			</AddInId>
+			<VendorId>ITI</VendorId>
+			<VendorDescription>@ITI</VendorDescription>
+			<VisibilityMode>NotVisibleWhenNoActiveDocument</VisibilityMode>
+			<AddInType>Application</AddInType>
+		</AddIn>
+	
+	
+</RevitAddIns>
